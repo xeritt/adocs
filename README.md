@@ -5,7 +5,7 @@
 ## Начало использования (Getting Started)
 Для начала использования необходимо склонировать проект.
 ```
-git clone github.com/xeritt/adocs/
+git clone https://github.com/xeritt/adocs.git
 ```
 ### Требования (Prerequisites)
 * Операционная система Linux (желательно Ubuntu >16).
