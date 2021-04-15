@@ -156,7 +156,7 @@ function docxChet() {
       IN=$(cat ${CHET_PATH}${CHET} | grep "КонтрАгент")
 			IFS='=' read -r -a array <<< "$IN"
 			AGENT=${array[1]}
-      echo "КонтрАгент="
+      echo "КонтрАгент="$AGENT
       head "Файлы для обработки:"
       echo ${TEMPLATES_PATH}${CHET_TEMPLATE}
       echo ${DOCX_PATH}"chet_"$NUM".docx"

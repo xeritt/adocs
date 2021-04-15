@@ -1,5 +1,5 @@
-APP_PATH=../target/adocs-0.1.jar
-BASE_PATH=../company/
+APP_PATH=$(pwd)/../target/adocs-0.1.jar
+BASE_PATH=$(pwd)/../company/
 TEMPLATES_PATH=$BASE_PATH"templates/"
 DOCX_PATH=$BASE_PATH"docx/"
 PROPS_PATH=$BASE_PATH"props/"

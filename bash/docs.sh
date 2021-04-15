@@ -18,9 +18,10 @@ function getNum() {
 }
 
 function getDocProp() {
+  local array
   IN=$(cat $1 | grep $2)
 	IFS='=' read -r -a array <<< "$IN"
-  PROPSVAL=${array[1]}
+  local PROPSVAL=${array[1]}
   echo $PROPSVAL
 }
 
